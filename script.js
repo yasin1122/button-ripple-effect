@@ -2,7 +2,7 @@
 const buttons = document.querySelectorAll('.ripple')
 
 // Loop through each button
-buttons.forEach((button) => {
+buttons.forEach(button => {
   // Add a click event listener to each button
   button.addEventListener('click', function (e) {
     // Get the x and y coordinates of the click event relative to the whole page
